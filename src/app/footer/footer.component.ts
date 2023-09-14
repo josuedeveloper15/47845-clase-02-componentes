@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   styles: [
     `
       footer {
+        height: var(--footer-height);
         background-color: orange;
       }
     `,

@@ -1,3 +1,11 @@
-<div style="margin-left: 200px; min-height: 100vh">
+<div
+  style="
+    margin-left: 200px;
+    height: calc(100vh - var(--toolbar-height) - var(--footer-height));
+    padding: 1rem;
+    overflow: scroll;
+    background-color: aliceblue;
+  "
+>
   <ng-content></ng-content>
 </div>
