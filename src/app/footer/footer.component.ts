@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
-  template: ` <footer>footer works!</footer> `,
+  template: ` <footer style="margin-left: 200px;">footer works!</footer> `,
   // styleUrls: ['./footer.component.scss'],
   styles: [
     `
